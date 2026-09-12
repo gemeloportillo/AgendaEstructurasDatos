@@ -28,6 +28,28 @@ Para cumplir con los parámetros de evaluación de la Universidad de Londres, el
 
 ---
 
+
+                       ┌─────────────────────────────────────────┐
+                       │     SISTEMA DE AGENDA INTEGRADA         │
+                       │ (Estructura y Representación de Datos)  │
+                       └────────────────────┬────────────────────┘
+                                            │
+       ┌──────────────────┬─────────────────┼──────────────────┬──────────────────┐
+       │                  │                 │                  │                  │
+       ▼                  ▼                 ▼                  ▼                  ▼
+┌──────────────┐   ┌──────────────┐  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+│  1. ARREGLO  │   │  2. ARREGLO  │  │   3. LISTA   │   │   4. PILA    │   │   5. COLA    │
+│UNIDIMENSIONAL│   │BIDIMENSIONAL │  │   DINÁMICA   │   │  (HISTORIAL) │   │ (PENDIENTES) │
+└──────┬───────┘   └──────┬───────┘  └──────┬───────┘   └──────┬───────┘   └──────┬───────┘
+       │                  │                 │                  │                  │
+   [Categorías]     [Matriz Datos]    [Directorio]       [LIFO: Undo]       [FIFO: Llamadas]
+  - Familia        - Nombre           - Agregar          - Última acción    - Primer pendiente
+  - Trabajo        - Teléfono         - Buscar             realizada          en llegar es el
+  - Amigos         - Correo           - Eliminar           es la primera      primero en ser
+                                      - Ordenar            en deshacerse      atendido
+
+
+
 ## 🗺️ Mapa Conceptual de Organización de Datos
 
 ```text
