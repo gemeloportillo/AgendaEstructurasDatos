@@ -3,20 +3,29 @@
 **Universidad de Londres**  
 **Materia:** Estructura y Representación de Datos  
 **Licenciatura en Informática**  
-**Clase No:** 135  
+**Matrícula:** 168823  
+**Nombre:** Miguel Angel Portillo Bobadilla 
 **Fecha de Entrega:** 11 de Septiembre de 2026  
 
 ---
 
+## 📌 Herramientas utilizadas
+
+-GDB Online debugger  (para desarrollo y probar al vuelo)
+-GitHub (para respaldar mi código y generar el ejecutable)
+-Google Docs (para documentación)
+
+
+
 ## 📌 Descripción del Proyecto
 
-Este proyecto consiste en un **Sistema de Agenda de Contactos Inteligente** desarrollado para la consola de comandos. Su propósito es aplicar de manera integrada y práctica las 5 estructuras de datos fundamentales de la asignatura (**Arreglo Unidimensional, Arreglo Bidimensional, Lista Dinámica, Pila y Cola**), ofreciendo una solución funcional para la administración de contactos, historial de auditoría y gestión de pendientes.
+Este proyecto consiste en un **Sistema de Agenda de Contactos Inteligente** desarrollado para la consola de comandos. Su propósito es aplicar de manera integrada y práctica las 5 estructuras de datos fundamentales de la asignatura (**Arreglo Unidimensional, Arreglo Bidimensional, Lista Dinámica, Pila y Cola**), ofreciendo una solución funcional para la administración de contactos, historial de actividad y gestión de pendientes.
 
 ---
 
 ## 🛠️ Arquitectura y Estructuras de Datos Utilizadas
 
-Para cumplir con los parámetros de evaluación de la Universidad de Londres, el sistema organiza la información distribuyéndola de la siguiente forma:
+Para cumplir con los parámetros de evaluación, el sistema organiza la información distribuyéndola de la siguiente forma:
 
 | Estructura | Módulo en la Agenda | Justificación Técnica |
 | :--- | :--- | :--- |
@@ -49,3 +58,6 @@ Para cumplir con los parámetros de evaluación de la Universidad de Londres, el
     [0] "Familia"       [Fila 0] Name,Tel...      (Nodo 1) -> (Nodo 2)    ┌───────────────┐     ┌──────────────┐
     [1] "Trabajo"       [Fila 1] Name,Tel...      - Agregar - Eliminar    │ ÚLTIMA ACCIÓN │ TOP │  PRIMER PEND.│ FRONT
     [2] "Amigos"        [Fila 2] Name,Tel...      - Buscar  - Ordenar     └───────────────┘     └──────────────┘
+
+
+
