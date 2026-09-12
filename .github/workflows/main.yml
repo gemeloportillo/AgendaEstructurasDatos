@@ -1,0 +1,27 @@
+name: Build Windows EXE
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Publish EXE
+      run: dotnet publish -c Release -r win-x64 --self-contained true /p:SingleFile=true -o output
+
+    - name: Upload Executable
+      uses: actions/upload-artifact@v4
+      with:
+        name: AgendaWindowsApp
+        path: output/*.exe
