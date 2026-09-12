@@ -13,7 +13,9 @@
 ## 📌 Herramientas utilizadas
 
 -GDB Online debugger  (para desarrollo y probar al vuelo)
+
 -GitHub (para respaldar mi código y generar el ejecutable)
+
 -Google Docs (para documentación)
 
 
