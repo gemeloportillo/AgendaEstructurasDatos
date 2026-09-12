@@ -18,10 +18,10 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish EXE
-      run: dotnet publish -c Release -r win-x64 --self-contained true /p:SingleFile=true -o output
+      run: dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true -o output
 
     - name: Upload Executable
       uses: actions/upload-artifact@v4
       with:
         name: AgendaWindowsApp
-        path: output/*.exe
+        path: output/AgendaEstructurasDatos.exe
