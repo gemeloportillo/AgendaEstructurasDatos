@@ -5,6 +5,7 @@
 **Licenciatura en Informática**  
 **Matrícula:** 168823  
 **Nombre:** Miguel Angel Portillo Bobadilla 
+
 **Fecha de Entrega:** 11 de Septiembre de 2026  
 
 ---
